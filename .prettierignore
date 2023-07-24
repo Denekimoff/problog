@@ -1,0 +1,10 @@
+build
+server
+favicon.ico
+node_modules
+public
+.eslintrc.json
+.gitignore
+.prettierignore
+next-env.d.ts
+next.config.js
