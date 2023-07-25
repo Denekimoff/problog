@@ -1,0 +1,48 @@
+.Button {
+    font-size: var(--font-h4);
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    line-height: normal;
+    letter-spacing: -0.375px;
+    transition: color .3s ease, background-color .3s ease;
+}
+
+.primary {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+.primary:hover {
+    background-color: #16b67c;
+}
+
+.secondary {
+    background-color: var(--color-passive);
+    color: var(--color-default);
+}
+
+.success {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+}
+
+.danger {
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+.warning {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+}
+
+.curve {
+    padding: 18px 40px;
+    border-radius: 40px;
+}
+
+.general {
+    padding: 12px 26px;
+}
